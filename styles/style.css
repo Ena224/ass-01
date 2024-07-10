@@ -521,16 +521,11 @@ letter-spacing: 0%;
 text-align: center;
 opacity:0.8;
 }
-/*  */
 
 #page-07-text 
 {
-
- 
 width: 1700px;
 height:700px; 
-
-
 }
 .box-container-2
 {
@@ -554,6 +549,7 @@ justify-content: flex-start;
     line-height: 26px;
     letter-spacing: 0%;
     text-align: left;
+    margin-right: 50px;
 }
 #page-07-text .text-box a{
     color: rgb(13, 19, 33);
@@ -564,4 +560,137 @@ line-height: 19px;
 letter-spacing: 0%;
 text-align: left;
 text-decoration-line: underline;
+}
+/* page=08 */
+#page-08
+{
+
+    border-radius: 16px;
+
+    background: rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2),rgba(0, 0, 0, 0.2);
+
+
+  background-image: linear-gradient(
+    0deg, rgb(16, 16, 16) -19.5%,rgba(16, 16, 16, 0) 100%),url(../assets/handshake.jpg); 
+    background-image: color;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height:550px;
+        
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    border-radius:15px;
+   align-items: center;
+    padding: 64px 48px 64px 48px; 
+    text-align: center;
+}
+#page-08  h1
+{
+    color: rgb(255, 255, 255);
+
+font-size: 48px;
+font-weight: 700;
+line-height: 36px;
+letter-spacing: 0%;
+text-align: center;
+
+
+}
+#page-08  p{
+    opacity:0.8;
+    color: rgb(255, 255, 255);
+
+font-size: 16px;
+font-weight: 400;
+padding-top: 50px;
+padding-bottom:50px;
+text-align: center;
+}
+.last
+{
+    display: flex;
+    flex-direction:row;
+    
+}
+#page-08 .last textarea{
+box-sizing: border-box;
+width: 540px; 
+ height: 50px; 
+border-radius: 10px;
+color: rgba(13, 19, 33, 0.4);
+gap:2px;
+padding-top: 15px;
+padding-left: 15px;
+font-size: 16px;
+font-weight: 400;
+
+text-align: left;
+background: rgb(233, 233, 233);
+}
+#page-08 .last .last-btn
+{
+
+ width: 120px;
+height: 50px;
+margin-top:4px;
+padding: 12px 20px 17px 20px;
+cursor: pointer;
+
+flex: none;
+margin-left:20px;
+
+flex-grow: 0;
+
+border-radius: 8px;
+
+background: rgb(255, 255, 255);
+
+color: rgb(13, 19, 33);
+
+font-size: 20px;
+font-weight: 600;
+line-height: 23px;
+letter-spacing: 0%;
+text-align: center;
+}
+/* page-09 */
+footer
+{
+    border-radius: 16px;
+
+background: rgba(13, 19, 33, 0.03);
+    /* Frame 21 */
+position: absolute;
+width: 1500px;
+height: 100px; 
+left: 0;
+top: 5000px;
+/* Auto layout */
+display: flex;
+flex-direction: column;
+justify-content: center;
+align-items: flex-start;
+padding-top:70px;
+
+}
+#fotA
+{
+    display:flex;
+   flex-direction:row;
+   justify-content: space-evenly;
+
+}
+#fotA h2{
+   margin-right:750px;
+   margin-left: 30px;
+}
+#fotA .fot2
+{
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+    font-size: 30px;
+    cursor: pointer;
+
 }
