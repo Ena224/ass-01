@@ -110,6 +110,10 @@
     margin-left:300px;
     margin-right:300px;
     }
+    .button-link
+    {
+        text-decoration:none;
+    }
     #hero .text-01   a{
         color: white;
         text-decoration:none;
