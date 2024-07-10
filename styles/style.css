@@ -357,7 +357,8 @@
     /* page-05 */
 
         #inspiration h1
-        {  color: rgb(13, 19, 33);
+        {  
+            color: rgb(13, 19, 33);
         
         font-size: 32px;
         font-weight: 700;
@@ -365,7 +366,8 @@
         letter-spacing: 1%;
         text-align: center;
         }
-        #inspiration p{
+        #inspiration   p{
+        
         margin-top:10px;
         opacity:0.8;
         color: rgb(13, 19, 33);
@@ -391,17 +393,17 @@
 
     display: flex;
     flex-direction: column;
-    justify-content: flex-start;
-    align-items: center;
+    /* justify-content: flex-start; */
+    /* align-items: center; */
     padding: 0px;
 
     flex: none;
     order: 0;
-    align-self: stretch;
+    /* align-self: stretch; */
     flex-grow: 0;
     margin: 111px 0px;
 }
-#page-06 h1{
+#page-06 .info h1{
     color: rgb(13, 19, 33);
     margin-left:350px;
     font-size: 32px;
@@ -411,7 +413,7 @@
     text-align: center;
 }
 
-#page-06 p
+#page-06 .info p
 { 
      margin-top:20px;
     opacity:0.8;
@@ -424,3 +426,75 @@
     text-align: center;
 
 }
+#card-container .card1,.card2 ,.card3
+{
+
+width: 284px;
+height: 220px;
+
+display: flex;
+flex-direction: column;
+align-items: flex-start;
+
+}
+ #card-container
+{
+    width:1500px;
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    gap:8px;
+    justify-content:space-around;
+
+    } 
+    #card-container .card1{
+    border-radius: 20px;
+    padding:70px 50px 70px;
+    background: rgba(255, 76, 30, 0.05);
+    }
+    #card-container h1{ 
+        color: rgb(13, 19, 33);
+padding-top:5px;
+font-size: 24px;
+font-weight: 800;
+line-height: 36px;
+
+text-align: left;
+    }
+#card-container  p{
+   
+    color: rgb(13, 19, 33);
+    opacity:0.8;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+
+    }
+    #card-container a{
+
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    text-decoration-line: underline;
+    }
+    #card-container .card2{
+        border-radius: 20px;
+        padding:70px 50px 70px;
+        border-radius: 16px;
+
+        background: rgba(0, 76, 232, 0.05);
+        }
+        #card-container .card3{
+            border-radius: 20px;
+            padding:70px 50px 70px;
+            
+    
+            border-radius: 16px;
+
+            background: rgba(255, 223, 0, 0.05);
+            }
