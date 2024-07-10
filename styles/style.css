@@ -29,6 +29,7 @@
         letter-spacing: 0%;
         text-align: left;
     }
+  
     .btn-1
     { 
         font-family: "Open Sans", sans-serif;
@@ -109,7 +110,12 @@
     margin-left:300px;
     margin-right:300px;
     }
-    #hero .text-01  .btn-2
+    #hero .text-01  .btn-2 a{
+        color: white;
+        text-decoration: none;
+    }
+
+    #hero .text-01  .btn-2 
     {
     border-radius: 8px;
     background: rgb(13, 19, 33);
