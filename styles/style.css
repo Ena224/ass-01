@@ -10,10 +10,10 @@
 
 
 
-.lala{
+  .nav1{
     margin-bottom:80px;
 }
-.lala h3
+.nav1 h3
 {
     /* font-family: "Azeret Mono", monospace; */
     position: absolute;
@@ -32,7 +32,7 @@
 .btn-1
 { 
     font-family: "Open Sans", sans-serif;
-    margin-left:200px;
+    margin-left:100px;
     position: absolute;
     width: 228px;
     height: 58px;
@@ -57,7 +57,8 @@
     padding:0;
  }
 #hero
-{
+{ 
+    
     height:690.12px;
     background-image:url(../assets/Hero-bg.png);
     background-size: cover;
