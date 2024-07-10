@@ -498,3 +498,70 @@ text-align: left;
 
             background: rgba(255, 223, 0, 0.05);
             }
+/* page-07 */
+#page-07 .text h1{
+    color: rgb(13, 19, 33);
+    padding-top:70px;
+    font-size: 32px;
+    font-weight: 700;
+    line-height: 37px;
+    letter-spacing: 0%;
+   margin-right:80px;
+    text-align: center;
+}
+#page-07 .text p{
+    padding-top:30px;
+    color: rgb(13, 19, 33);
+margin-left:70px;
+margin-right:70px;
+font-size: 16px;
+font-weight: 400;
+line-height: 26px;
+letter-spacing: 0%;
+text-align: center;
+opacity:0.8;
+}
+/*  */
+
+#page-07-text 
+{
+
+ 
+width: 1700px;
+height:700px; 
+
+
+}
+.box-container-2
+{
+    display: flex;
+  padding-top:50px;
+justify-content: flex-start;
+ align-items: center;  
+}
+
+#page-07-text .card-1
+{
+    margin-left:50px;
+    margin-right:50px;
+}
+#page-07-text .text-box p
+{
+    opacity:0.8;
+    color: rgb(13, 19, 33);
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+#page-07-text .text-box a{
+    color: rgb(13, 19, 33);
+
+font-size: 16px;
+font-weight: 700;
+line-height: 19px;
+letter-spacing: 0%;
+text-align: left;
+text-decoration-line: underline;
+}
