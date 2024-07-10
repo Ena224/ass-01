@@ -110,9 +110,10 @@
     margin-left:300px;
     margin-right:300px;
     }
-    #hero .text-01  .btn-2 a{
+    #hero .text-01   a{
         color: white;
-        text-decoration: none;
+        text-decoration:none;
+
     }
 
     #hero .text-01  .btn-2 
